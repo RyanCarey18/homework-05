@@ -29,6 +29,6 @@
 # Link
 
 Picture of my Site in action
-[Picture01](https://github.com/RyanCarey18/homework-05/blob/main/assets/screenshot01.png)
+[Picture01](https://github.com/RyanCarey18/homework-05/blob/main/assets/Screenshot01.png)
 
 Click [here](https://ryancarey18.github.io/homework-05/) to go to my deployed page.
