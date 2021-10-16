@@ -28,9 +28,7 @@
 
 # Link
 
-Pictures of my Site in action
-[Picture01](https://github.com/RyanCarey18/homework-04/blob/main/assets/screenshot01.png)
-[Picture02](https://github.com/RyanCarey18/homework-04/blob/main/assets/screenshot02.png)
-[Picture03](https://github.com/RyanCarey18/homework-04/blob/main/assets/screenshot03.png)
+Picture of my Site in action
+[Picture01](https://github.com/RyanCarey18/homework-05/blob/main/assets/screenshot01.png)
 
 Click [here](https://ryancarey18.github.io/homework-05/) to go to my deployed page.
