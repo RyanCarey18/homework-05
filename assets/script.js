@@ -1,7 +1,7 @@
 const textAreas = $("textarea");
 const buttons = $("buttons");
 const today = moment();
-const todayIs = today.format("dddd, MMMM do");
+const todayIs = today.format("dddd, MMMM Do");
 $("#currentDay").text(todayIs);
 const hour = today.format("HH");
 let plans = {};
@@ -21,13 +21,9 @@ $(".saveBtn").on("click", function (e) {
   e.preventDefault();
 
   row = this.id;
-  console.log(row);
-
   text = $(this).siblings("textarea").val().trim();
-
   plans[row] = text;
 
-  console.log(plans);
   savePlan();
   renderPlans();
 });
@@ -45,6 +41,7 @@ function init() {
     plans = storedPlans;
   }
   renderPlans(storedPlans);
+  savePlan();
 }
 //Renders the plans back into the text boxes
 function renderPlans(storedPlans) {
@@ -53,6 +50,5 @@ function renderPlans(storedPlans) {
       .siblings("textarea")
       .val(storedPlans[id]);
   }
-  savePlan();
 }
 init();
